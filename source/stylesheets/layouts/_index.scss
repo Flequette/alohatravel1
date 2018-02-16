@@ -3,3 +3,107 @@
 // @import "dashboard";
 // @import "profile";
 // @import "map";
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 140vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px 15px;
+}
+
+.banner h1 {
+  font-size: 38px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.banner h4 {
+  font-size: 18px;
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.banner h5 {
+  font-size: 16px;
+
+  margin-top: 60px;
+  letter-spacing: 1px;
+}
+
+.banner p {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #F9F9F9;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.logo {
+  left:20px;
+  top:20px;
+  position: absolute;
+}
+
+.langs a {
+  right:30px;
+  top:30px;
+  color: #F9F9F9;
+  text-decoration: none;
+  position: absolute;
+}
+
+.langs a:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+#mailchimp {
+  color: #3D6392;
+  padding: 15px 15px;
+}
+
+#mailchimp input {
+    border: medium none;
+    color: #404040;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    width: 250px;
+    border-radius: 2px;
+    opacity: 0.8;
+  }
+
+#mailchimp input.email {
+  background: #F9F9F9;
+  opacity: 0.4;
+}
+
+#mailchimp input[type="submit"] {
+  color: #404040;
+  border: 1px solid #999999;
+  padding: 10px 10px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 1;
+  font-size: 14px;
+  width: 150px;
+  margin-top: 20px;
+  background: #F9F9F9;
+}
+
+#mailchimp input[type="submit"]:hover {
+  opacity: 0.6;
+  text-decoration: none;
+  color: #404040;
+}
